@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LaserWorks656</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estiloLamparasLed.css">
+
+<!-- Fuentes Google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<!-------------------------------------------------------------------------------------------------------->
+</head>
+<!--Barrra navegacion-->
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo">
+    <nav>
+    <ul class="menu-horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+            <a href="#">Productos</a> 
+            <ul class="menu-vertical">
+                <li><a href="indexLamparasLed.html">Lámparas LED 3D</a></li>
+                <li><a href="indexMarcos.html">Marcos LED</a></li>
+                <li><a href="#">Letreros de Neón (Próximamente)</a></li>
+            </ul>
+        </li>
+        <li><a href="indexPreguntas.html">Preguntas Frecuentes</a></li>
+        <li><a href="indexContacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="indexFormulario.html"><button>Iniciar Sesion</button></a>
+    </header>
+    <!---------------------------------------------------------------------->
+
+    
+
+    <div class="info">
+
+    <h1 class="titulo">Lámparas LED Personalizadas</h1>
+    <p>Hacemos tu lámpara con tu foto, personaje, figura o diseño que gustes.</p><br>
+        <p> Además te ofrecemos añadir sin costo extra texto (frases o nombres).</p><br>
+        <p>Selecciona el tamaño de la lámpara:</p>
+    </div>
+
+
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Tamaños y precios de las lámparas</option>
+      <option value="chica">Chica 17cm $480.00 MXN</option>
+      <option value="mediana">Mediana 20cm $520.00 MXN</option>
+      <option value="grande">Grande 24cm $600.00 MXN</option>
+      <option value="extraGrande">Extra grande 29cm $700.00 MXN</option>
+   </select>
+</div>
+
+<form >
+    <button id="comprar">COMPRAR AHORA</button>
+</form>
+
+
+
+<!--------------------carrusel----------->
+    <div class="slidershow middle">
+
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+          <input type="radio" name="r" id="r4">
+          <input type="radio" name="r" id="r5">
+          <div class="slide s1">
+            <img src="images/Lamp1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/Lamp2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/Lamp3.jpg">
+          </div>
+          <div class="slide">
+            <img src="images/Lamp4.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/Lamp5.jpg" alt="">
+          </div>
+        </div>
+  
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+          <label for="r4" class="bar"></label>
+          <label for="r5" class="bar"></label>
+        </div>
+      </div>
+      <!------------------------------------------------->
+    
+      <div class="contenedor">
+        <h1>Cientos de clientes satisfechos!</h1>
+        <div id="slider"></div>
+    </div>
+    
+</body>
+</html>

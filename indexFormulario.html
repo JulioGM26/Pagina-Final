@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LaserWorks656</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estiloFormulario.css">
+
+<!-- Fuentes Google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<!-------------------------------------------------------------------------------------------------------->
+</head>
+<!--Barrra navegacion-->
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo">
+    <nav>
+    <ul class="menu-horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+            <a href="#">Productos</a> 
+            <ul class="menu-vertical">
+                <li><a href="indexLamparasLed.html">Lámparas LED 3D</a></li>
+                <li><a href="indexMarcos.html">Marcos LED</a></li>
+                <li><a href="#">Letreros de Neón (Próximamente)</a></li>
+            </ul>
+        </li>
+        <li><a href="indexPreguntas.html">Preguntas Frecuentes</a></li>
+        <li><a href="indexContacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="indexFormulario.html"><button>Iniciar Sesion</button></a>
+    </header>
+    <!---------------------------------------------------------------------->
+
+    <h2>Crear Cuenta</h2>
+
+    <div class="formu">
+        <form class="clientes" action="guardar.php" method="POST" id="contact_form"
+
+        runat="server" enctype="multipart/form-data">
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" maxlength="60"><br>
+
+            <label for="Apellidos">Apellidos:</label><br>
+            <input type="text" id="Apellidos" name="Apellidos"  maxlength="60" required pattern="[A-z]{1,60}"><br>
+
+        
+            <label for="Correo">Correo</label><br>
+            <input type="email" id="Correo" name="Correo"  maxlength="60" ><br>
+            
+            <label for="Contrasena">Contraseña</label><br>
+            <input type="password" id="Contrasena" name="Contrasena"  maxlength="60" ><br>
+            
+            <button class="submit" type="submit">Enviar Registro</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+/* ------BARRA NAVEGACION------------------*/
+li, a, button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.menu-horizontal {
+    list-style: none;
+}
+
+.menu-horizontal li {
+display: inline-block;
+padding: 0px 20px;
+}
+
+.menu-horizontal li a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu-horizontal li a:hover {
+    color: #007EA7;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 168, 232,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 168, 232,0.8);
+}
+ 
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-vertical li a{
+    display: block;
+    padding: 10px ;
+    text-decoration: none;
+}
+
+/* -----------------------------------------*/
+
+/* ---------------VIDEO---------------------*/
+
+.videoMain{
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color:#ffffff;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+
+video {
+    width: 100%;
+}
+
+
+/* ---------------CATALOGO---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 420px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 105, 204, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 105, 204, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 330px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.paleta {
+    background-color: #001731;
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.autor {
+    color: #00bfff;
+    margin-left: 10%;
+    cursor: pointer;
+}

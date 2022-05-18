@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+/* ------BARRA NAVEGACION------------------*/
+li, a, button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.menu-horizontal {
+    list-style: none;
+}
+
+.menu-horizontal li {
+display: inline-block;
+padding: 0px 20px;
+}
+
+.menu-horizontal li a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu-horizontal li a:hover {
+    color: #007EA7;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 168, 232,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 168, 232,0.8);
+}
+ 
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-vertical li a{
+    display: block;
+    padding: 10px ;
+    text-decoration: none;
+}
+
+/* -----------------------------------------*/
+
+h1 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.preguntas {
+    color: #3498db;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+
+.respuestas {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 25%;
+}
